@@ -230,3 +230,47 @@ box-shadow:0 10px 25px rgba(96,165,250,.25);
     border:2px solid rgba(96,165,250,.4);
     box-shadow:0 0 10px rgba(96,165,250,.1);
 }
+.education-card{
+display:flex;
+align-items:center;
+gap:20px;
+
+background:rgba(255,255,255,.05);
+
+padding:25px;
+
+border-radius:18px;
+
+border:1px solid rgba(96,165,250,.15);
+
+margin-bottom:20px;
+
+transition:.3s;
+}
+
+.education-card:hover{
+transform:translateY(-5px);
+
+border-color:#60a5fa;
+
+box-shadow:
+0 10px 25px rgba(96,165,250,.12);
+}
+
+.education-icon{
+font-size:2.5rem;
+}
+
+.education-content h3{
+margin-bottom:5px;
+}
+
+.education-content p{
+color:#cbd5e1;
+margin-bottom:5px;
+}
+
+.education-content span{
+color:#60a5fa;
+font-weight:600;
+}
